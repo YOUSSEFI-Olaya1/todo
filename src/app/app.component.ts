@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  constructor(private router: Router) {}
+  /*
+  async ngOnInit() {
+  await this.router.navigate(['loader']);
+    // Appeler ici une méthode qui charge les données de votre application
+    await this.router.navigate(['login']);
 }
+*/}

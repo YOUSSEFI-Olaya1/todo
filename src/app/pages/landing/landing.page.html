@@ -1,0 +1,44 @@
+<ion-menu contentId="main-content" color="primary">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Welcome !!</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"><ion-list>
+    <ion-item>
+      <ion-button type="submit" fill="clear" (click)="goToaboutus()" fill="clear" color="dark" size="full" expand="block">About us</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-button type="submit" fill="clear" (click)="goToContact()" fill="clear" color="dark" size="full" expand="block">Contact us</ion-button>
+
+    </ion-item>
+    <ion-item>
+      <ion-button type="submit" fill="clear" (click)="goToRLogin()" fill="clear" color="dark" size="full" expand="block">Login</ion-button>
+    </ion-item>
+   
+  </ion-list></ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header color="primary">
+    <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title >Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> <div class="flex-center">
+    <ion-card>
+      <img alt="Silhouette of mountains" src="./../../../assets/land.gif">
+     
+      <ion-card-header>
+        <ion-card-title>Welcome !!</ion-card-title>
+       <!--<ion-card-subtitle>Card Subtitle</ion-card-subtitle>--> 
+      </ion-card-header>
+    
+      <ion-card-content>
+       <h3><i>Are you tired of feeling overwhelmed by your tasks and deadlines? Our to-do list app is designed to simplify your life and boost your productivity. Stay organized, prioritize tasks, and accomplish more with ease</i>.</h3>
+      </ion-card-content>
+    </ion-card>
+    </div> </ion-content>
+</div>

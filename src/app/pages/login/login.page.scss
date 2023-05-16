@@ -1,0 +1,18 @@
+ion-button[color="dark"]
+    {
+text-transform: initial;
+}
+/*
+ion-content{
+    --background: #157cac ;
+}*/
+#load{
+    background: #000 url(./../../../assets/img/load.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+h1{
+    color: #cc37a7;
+}
