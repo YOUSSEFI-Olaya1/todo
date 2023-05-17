@@ -1,7 +1,4 @@
-ion-button[color="dark"]
-    {
-text-transform: initial;
-}
+
 /*
 ion-content{
     --background: #157cac ;
@@ -14,5 +11,12 @@ ion-content{
     z-index: 100;
 }
 h1{
-    color: #cc37a7;
+    color: #0c5ca7;
+}
+.bt{
+    --background: #dcf767;
+    color: #07609c;
+}
+.btt{
+    color:#dcf767;
 }

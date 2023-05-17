@@ -20,10 +20,7 @@ const routes: Routes = [
     path: 'registry',
     loadChildren: () => import('./pages/registry/registry.module').then( m => m.RegistryPageModule)
   },
-  {
-    path: 'loader',
-    loadChildren: () => import('./pages/loader/loader.module').then( m => m.LoaderPageModule)
-  },
+  
   {
     path: 'to-do',
     loadChildren: () => import('./pages/to-do/to-do.module').then( m => m.ToDoPageModule)

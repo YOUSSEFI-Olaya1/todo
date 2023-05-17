@@ -34,6 +34,8 @@ export class LoginPage implements OnInit {
         this.fireService.getDetails({uid:res.user.uid}).subscribe(res=>{
           console.log(res);
           alert('Welcome ');
+          this.navCtrl.navigateForward('to-do');
+
         },(err: any) =>{
           console.log(err);
         });
@@ -42,7 +44,6 @@ export class LoginPage implements OnInit {
       alert(err.message)
       console.log(err);
     })
-    this.navCtrl.navigateForward('to-do');
   }
 
 
