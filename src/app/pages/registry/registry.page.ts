@@ -40,7 +40,6 @@ mobile:any;
         }
         this.fireService.saveDetails(data).then(res=>{
          alert('Account Created!');
-         this.navCtrl.navigateForward('to-do');
 
         },err=>{
           console.log(err);
@@ -51,6 +50,8 @@ mobile:any;
 
       console.log(err);
     })
+    this.navCtrl.navigateForward('to-do');
+
   }
  
 
